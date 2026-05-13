@@ -12,11 +12,11 @@
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-diagram-project"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="#ficha" class="link"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-diagram-project"></i></a></li>
+                <li><a href="#" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -24,15 +24,18 @@
         <section id="ficha">
             <img src="imagens/felipe-perfil.jpeg" alt="Felipe Santos" class="foto">
             <h1>Felipe Santos</h1>
-            <p>Atualmente atuo como desenvolvedor web iniciante, focado em HTML5 e CSS3 para criação de sites responsivos e modernos. Estou em constante aprendizado e meu próximo passo é me aprofundar em JavaScript e PHP para atuar também no back-end e desenvolvimento full stack</p>
+            <p>Atualmente estou aprendendo como desenvolver web, focado em HTML5 e CSS3 para criação de sites responsivos e modernos. Estou em constante aprendizado e meu próximo passo é me aprofundar em JavaScript e PHP para atuar também no back-end e desenvolvimento full stack</p>
             <div id="social">
                 <a href="https://www.instagram.com/_felipesantos.00/" target="_blank" rel="nofollow"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://github.com/felipesantiagosf55-collab" target="_blank" rel="nofollow"><i class="fa-brands fa-github"></i></a>
                 <a href="mailto:felipesantiagos.f55@gmail.com" target="_blank" rel="nofollow"><i class="fa-solid fa-envelope"></i></a></div>
         </section>
+            <!----------------------------------------------------------->
+            
         <section id="detalhes">
- 
-            <article id="skills">
+
+            
+                <article id="skills">
                 <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
 
                 <div id="skill-container">
@@ -101,8 +104,9 @@
                     </div>
                 </div>
             </article><!--Fim article skills-->
-
-            <article id="formacao">
+            <!----------------------------------------------------------->
+ 
+        <article id="formacao">
                 <h2><i class="fa-solid fa-graduation-cap"></i> Estudos</h2>
                 <div id="formacao-container">
                     <div class="curso">
@@ -142,22 +146,74 @@
                     </div>
                 </div>
             </article><!--Fim article formacao-->
-
+            <!----------------------------------------------------------->
             <article id="projetos">
                 <h2><i class="fa-solid fa-diagram-project"></i> Progetos</h2>
-            </article><!--Fim article projetos-->
+                <div id="projeto-container">
+                    <div class="projetos">
+                        <img src="imagens/projeto-02-duhpaulo.png" alt="Foto do meu primeiro Site " class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">Abril-2026</p>
+                            <h3 class="titulo">Projeto Para um canal do YouTube</h3>
+                            <details class="descricao">
+                                <summary>Saibe mais ...</summary>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, sint nam! Quisquam delectus voluptatem natus dignissimos doloremque dicta quas suscipit laborum ipsam, repudiandae libero voluptates exercitationem quidem incidunt sint neque!</p>
+                                <a href="https://felipesantiagosf55-collab.github.io/duhpaulo/" target="_blank" class="link-projetos"><i class="fa-solid fa-link"></i> Link do Site</a>
+                            </details>
+                        </div>
+                    </div>
 
-            <article id="video">
-                <h2><i class="fa-solid fa-book-atlas"></i> Minha referença em HTML e CSS</h2>
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rqvn_c2n9Eg?si=-jIC_waRwLzk_HsZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-            </article><!--Fim article video-->
-
+                        <div class="projetos">
+                            <img src="imagens/projeto-03-cordel.png" alt="Foto do meu segundo Site " class="foto">
+                            <div class="projeto-info">
+                                <p class="periodo">Abril-2026</p>
+                                <h3 class="titulo">Projeto Cordel Moderno</h3>
+                                <details class="descricao">
+                                    <summary>Saibe mais ...</summary>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, sint nam! Quisquam delectus voluptatem natus dignissimos doloremque dicta quas suscipit laborum ipsam, repudiandae libero voluptates exercitationem quidem incidunt sint neque!</p>
+                                    <a href="https://felipesantiagosf55-collab.github.io/Corde-Moderno/" target="_blank" class="link-projetos"><i class="fa-solid fa-link"></i> Link do Site</a>
+                                </details>
+                            </div>
+                        </div>
+                        <div class="projetos">
+                            <img src="imagens/projeto-04-social.png" alt="Foto do meu terceiro Site " class="foto">
+                            <div class="projeto-info">
+                                <p class="periodo">maio-2026</p>
+                                <h3 class="titulo">Projeto Social</h3>
+                                <details class="descricao">
+                                    <summary>Saibe mais ...</summary>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, sint nam! Quisquam delectus voluptatem natus dignissimos doloremque dicta quas suscipit laborum ipsam, repudiandae libero voluptates exercitationem quidem incidunt sint neque!</p>
+                                    <a href="https://felipesantiagosf55-collab.github.io/projeto-social/" target="_blank" class="link-projetos"><i class="fa-solid fa-link"></i> Link do Site</a>
+                                </details>
+                            </div>
+                        </div>
+                        <div class="projetos">
+                            <img src="imagens/projeto-05-login.png" alt="Foto do meu quarto Site " class="foto">
+                            <div class="projeto-info">
+                                <p class="periodo">Maio-2026</p>
+                                <h3 class="titulo">Projeto Login</h3>
+                                <details class="descricao">
+                                    <summary>Saibe mais ...</summary>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, sint nam! Quisquam delectus voluptatem natus dignissimos doloremque dicta quas suscipit laborum ipsam, repudiandae libero voluptates exercitationem quidem incidunt sint neque!</p>
+                                    <a href="https://felipesantiagosf55-collab.github.io/projeto-login/" target="_blank" class="link-projetos"><i class="fa-solid fa-link"></i> Link do Site</a>
+                                </details>
+                            </div>
+                        </div>
+                                        </div>
+                                    </article><!--Fim article projetos-->
+                                    <!----------------------------------------------------------->
+                                    <article id="video">
+                                        <h2><i class="fa-solid fa-book-atlas"></i> Minha referença em HTML e CSS</h2>
+                                        <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rqvn_c2n9Eg?si=-jIC_waRwLzk_HsZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        </div>
+                                    </article><!--Fim article video-->
+                                    <!----------------------------------------------------------->
+                    
         </section>
     </main>
     <footer>
-
+        Portifólio desenvolvido por <strong>Felipe Santos</strong>
     </footer>
     <script src="scripts/script.js"></script>
 </body>
